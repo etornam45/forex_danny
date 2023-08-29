@@ -1,0 +1,94 @@
+.body{
+    margin-top: 5rem;
+}
+
+.body_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start !important;
+    gap: 3rem !important;
+}
+
+.body_container img{
+    width: 530px;
+    height: auto; 
+} 
+
+.body_info p{
+    font-family: 'Roboto', sans-serif;
+    // line-height:1.5;
+    // margin-top:1.5rem;
+}
+
+.grey_color{
+    color: #6f6666;
+}
+
+.body_text{
+    display: flex;
+    flex: 1 1;
+    padding:2rem 0;
+    gap:2rem;
+    // margin-left:10px;
+    
+    div{
+        gap: 10px;
+    }
+}
+
+.body_text_left{
+    display: flex;
+    flex-direction: column;
+    line-height:1.8;
+    color: color-mix(in srgb, var(--primary-color) 50%, black 50%);
+    font-weight: 800;
+}
+
+.body_text_left div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.body_text_right{
+    display: flex;
+    flex-direction: column;
+    line-height:1.8;
+    // color: var(--primary-color);
+    color: color-mix(in srgb, var(--primary-color) 50%, black 50%);
+    font-weight: 800;
+}
+
+.body_text_right div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn button{
+    // padding:1rem;
+    background: var(--primary-color);
+    padding: 10px 20px;
+    color:rgb(0, 0, 0);
+    border: 2px solid transparent;
+    font-weight: 800;    transition: 1s;
+}
+
+.btn Link{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.btn button:hover{
+    background: transparent;
+    border:2px solid var(--primary-color);
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+.body_header {
+    div{
+        margin-bottom: 10px;
+    }
+}
