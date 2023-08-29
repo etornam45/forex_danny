@@ -1,0 +1,63 @@
+.back{
+    background-image: url("../../assets/trade.jpeg");
+    background-size: cover;
+    // background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.hero {
+//   background: linear-gradient(red, blue);
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, var(--color) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color) 1px, transparent 1px);
+  height: 560px !important;
+  width: 100%;
+  color: white;
+
+  box-shadow: inset 0px 0px 150px 262px rgba(0, 0, 0, 0.6);
+  border-bottom: 1px solid #eeeeee8e;
+
+    h1{
+        font-size: 3rem;
+        // font-variant-caps:   ;
+
+        span{
+            color: #296cff;
+            padding: 0 .3rem;
+        }
+
+
+
+    }
+
+    p{
+        padding: 10px;
+        width: 80%;
+        font-size: 1.5rem;
+        color: #f3e300;
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+    }
+
+    button{
+        border-radius: 0;
+        border: var(--color);
+        padding: 10px 20px;
+        background: var(--primary-color);
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
