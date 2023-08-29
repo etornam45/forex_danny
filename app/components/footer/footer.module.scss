@@ -1,0 +1,38 @@
+
+.auto-container{
+    // background-color: yellow;
+
+    .clearfix{
+        display: flex;
+        gap: 20px;
+    }
+
+    ul,li{
+        list-style: none;
+    }
+
+
+    div.widget-inner{
+        max-width: 200px;
+    }
+}
+
+.row{
+    display: flex;
+    gap: 20px;
+}
+
+.big-column:nth-child(1){
+    flex-basis: 80%;
+}
+
+.bottom{
+    text-align: center;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    
+}
