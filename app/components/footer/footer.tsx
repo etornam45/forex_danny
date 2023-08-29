@@ -14,12 +14,6 @@ export default function Footer(){
                                     <div className="widget-inner">
                                         
                                         <div className="text">We build 	strong investment portfolio through diversified asset management.</div>
-                                        <div className="social-links">
-                                            <ul className="clearfix">
-                                                <li><a href="#"><span className="fa fa-facebook-f"></span></a></li>
-                                                
-                                            </ul>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
 .investment{
-    margin:5rem;
+    // margin:5rem;
     margin-top:9rem;
 }
 
@@ -9,28 +9,22 @@
 }
 
 .investment_header{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 2rem;
+    text-align: center;
 }
 
 .investmentPlans{
-    display:flex;
+    // display:flex;
+    // justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap:1rem;
-    // margin-left:0.8rem;
-    // margin-top:1.6rem;
-    justify-content: space-between;
-    
 }
 
 .investmentPlan{
-    display: flex;
-    flex-direction: column;
     border:1px solid var(--primary-color);
     height: 29rem;
-    // margin-left:15px;
-    // width:20rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .investmentPlan p{

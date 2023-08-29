@@ -39,6 +39,12 @@
     margin-top:4rem;
     gap:3rem;
     justify-content: center;
+
+
+    @media screen and (max-width: 768px){
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
 
 .about_left{
@@ -93,6 +99,11 @@
     display: inline-block;
     line-height: 1.75em;
     position:relative;
+
+
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
 }
 
 .about_right p{

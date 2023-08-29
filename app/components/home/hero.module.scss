@@ -26,13 +26,15 @@
         font-size: 3rem;
         // font-variant-caps:   ;
 
+
+        @media screen and (max-width: 768px) {
+            font-size: 2rem;
+        }
+
         span{
             color: #296cff;
             padding: 0 .3rem;
         }
-
-
-
     }
 
     p{
@@ -40,6 +42,11 @@
         width: 80%;
         font-size: 1.5rem;
         color: #f3e300;
+
+
+        @media screen and (max-width: 768px) {
+            font-size: 1rem;
+        }
     }
 
     .flex{

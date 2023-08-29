@@ -8,8 +8,8 @@ const InvestmentPlans = () => {
     <div className='investment'>
         <div className='investment_container'>
             <div className='investment_header'>
-              <span className='wine_color' style={{fontSize:'3rem', fontWeight:'bold'}}>Our Investment Plans</span>
-              <span className='grey_color' style={{fontSize:'1.1rem', marginTop:'1rem'}}>We utilize multi-asset management to make unified profit for our investors</span>
+              <h2 className='wine_color' style={{fontSize:'3rem', fontWeight:'bold'}}>Our Investment Plans</h2>
+              <p className='grey_color' style={{fontSize:'1.1rem', marginTop:'1rem'}}>We utilize multi-asset management to make unified profit for our investors</p>
             </div>
 
             <div className='investmentPlans fluid-container'>

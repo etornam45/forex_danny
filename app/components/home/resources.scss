@@ -1,10 +1,13 @@
 
 .resource_categories{
-    display: flex;
     flex-direction: row;
     margin-top: 5rem;
-    justify-content: space-between;
-    gap:1rem;
+    // display: flex;
+    // justify-content: space-between;
+    // gap:1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
 }
 
 .resource_category{
@@ -25,7 +28,7 @@
         padding: 10px;
         border: none;
         // border: 1px solid var(--background-color);
-        color: var(--background-color);
+        color:black;
         font-weight: bolder;
         cursor: pointer;
     }

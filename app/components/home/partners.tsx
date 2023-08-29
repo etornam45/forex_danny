@@ -30,8 +30,8 @@ const Partners = () => {
                         <div className="tel">
                             <a className="telegram grey_color" href="/telegram">
                                 <TelegramIcon />
+                              <span className="grey_color">{partner.role}</span>
                             </a>
-                            <span className="grey_color">{partner.role}</span>
                         </div>
                     </div>
                 </div>
