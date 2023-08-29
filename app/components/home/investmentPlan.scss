@@ -1,0 +1,65 @@
+.investment{
+    margin:5rem;
+    margin-top:9rem;
+}
+
+.investment_container{
+    display: flex;
+    flex-direction: column;
+}
+
+.investment_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.investmentPlans{
+    display:flex;
+    gap:1rem;
+    // margin-left:0.8rem;
+    // margin-top:1.6rem;
+    justify-content: space-between;
+    
+}
+
+.investmentPlan{
+    display: flex;
+    flex-direction: column;
+    border:1px solid var(--primary-color);
+    height: 29rem;
+    // margin-left:15px;
+    // width:20rem;
+}
+
+.investmentPlan p{
+    background: var(--primary-color);
+    font-size: 1.4rem;
+    // color:white;
+    padding:1.3rem;
+    // padding-left:5.5rem;
+    // margin-top:0rem;  
+    text-align: center;
+}
+
+.investment_text{
+    display: flex;
+    flex-direction: column;
+    padding:2rem 30px;
+    padding-top:0rem;
+    // margin-left:1.2rem;
+
+}
+
+.investment_text span{
+    padding-top:2.6rem;
+}
+
+
+.investmentPlan:hover{
+    cursor: pointer;
+    box-shadow: 0 0 3px 2px var(--primary-color);
+    transition:0.3s;    
+    // color: white;
+}
