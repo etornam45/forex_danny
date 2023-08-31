@@ -33,7 +33,7 @@ const AboutSection = () => {
               providing a seamless user experience.With expertise in our fields we strive to meet the needs
               and exceed the expectations of our valued customers.
             </p>
-            <a className='wine_color' href="/">Read More</a>
+            <a className='wine_color' href="/about">Read More</a>
         </div>
 
 
