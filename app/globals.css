@@ -102,11 +102,22 @@ body {
 
 body.dark{
   --primary-color: hsl(204, 100%, 36%);
-  --background-color: #121225db;
+  --background-color: #222235db;
   background: var(--background-color);
-  color: #c5c5c5;
+  color: #9e9c9c;
   --color: rgba(255, 255, 255, 0.692) !important;
   --text-color: #fff !important;
+}
+
+
+body.dark b,
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark h5,
+body.dark h6{
+  color: white;
 }
 
 /* body {
@@ -124,6 +135,11 @@ a {
   text-decoration: none;
 }
 
+
+img{
+  width: 100%;
+  height: auto;
+}
 
 .fluid-container{
   display: flex;

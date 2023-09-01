@@ -56,7 +56,23 @@
         height: 100%;
         justify-content: center;
         gap: 20px;
-        text-align: center;
+        
+
+        h1,p, button{
+            text-align: center;
+            animation-name: reveal;
+            animation-duration: 1.5s;
+            animation-delay: 200ms;
+            
+            @keyframes reveal {
+                from{
+                    translate: 0 100%; 
+                }
+                to{
+                    translate: 0 0;
+                }
+            }
+        }
     }
 
     button{

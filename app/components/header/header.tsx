@@ -11,6 +11,12 @@ export default function Header() {
   const [theme, setTheme] = useState("light");
   const [navState, setNavState] = useState(false);
 
+  window.onload = () => {
+    if(window.innerWidth > 768){
+      setNavState(true)
+    }
+  }
+
   useEffect(() => {
     if (localStorage.getItem("theme") === "dark") {
       setTheme("dark");
@@ -19,11 +25,7 @@ export default function Header() {
       setTheme("light");
       document.body.classList.remove("dark");
     }
-
-    if(window.innerWidth > 768){
-      setNavState(true)
-    }
-  }, []);
+  });
 
   function changeTheme() {
     if (theme === "light") {
@@ -36,8 +38,6 @@ export default function Header() {
       document.body.classList.remove("dark");
     }
   }
-
-
 
   function toggleNavigation () {
     setNavState(!navState);
@@ -53,24 +53,24 @@ export default function Header() {
 
             {navState && (
               <ul className={styles["navbar"]}>
-              <li>
-                <a href={"/"}>Home</a>
-              </li>
-              <li>
-                <a href={"/about"}>About</a>
-              </li>
-              <li>
-                <a href={"/services"}>Services</a>
-              </li>
-              <li>
-                <a href={"/contact"}>Contact</a>
-              </li>
-              <li>
-                <a href={"/login"}>Login</a>
-              </li>
-              <li>
-                <a href={"/register"}>Register</a>
-              </li>
+                <li>
+                  <a href={"/"}>Home</a>
+                </li>
+                <li>
+                  <a href={"/about"}>About</a>
+                </li>
+                <li>
+                  <a href={"/services"}>Services</a>
+                </li>
+                <li>
+                  <a href={"/contact"}>Contact</a>
+                </li>
+                <li>
+                  <a href={"/login"}>Login</a>
+                </li>
+                <li>
+                  <a href={"/register"}>Register</a>
+                </li>
             </ul>
             )}
           <div className={styles.control}>
