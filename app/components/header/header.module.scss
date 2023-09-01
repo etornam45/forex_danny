@@ -1,9 +1,9 @@
 .header {
   width: 100%;
   position: fixed;
-  border-bottom: 1px solid #eeeeeeea;
+  border-bottom: 1px solid #9b9b9bea;
   background: var(--background-color);
-  backdrop-filter: blur(48px) saturate(1.7);
+  backdrop-filter: blur(48px) saturate(10.7);
   z-index: 3;
 
   .fluid-container {
@@ -57,7 +57,7 @@
       left: 0;
 
       padding: 1.4rem;
-      backdrop-filter: blur(4px);
+      backdrop-filter: blur(40px);
     }
   }
 
