@@ -47,9 +47,9 @@ export default function Header() {
     <>
       <header className={styles.header}>
         <div className={styles["fluid-container"]}>
-          <div className={styles.logo}>
+          <h4 className={styles.logo}>
             <span>UNI</span>Trading
-          </div>
+          </h4>
 
             {navState && (
               <ul className={styles["navbar"]}>
