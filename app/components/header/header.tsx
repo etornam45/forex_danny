@@ -22,11 +22,9 @@ export default function Header() {
       document.body.classList.remove("dark");
     }
     
-    window.onload = () => {
     if(window.innerWidth > 768){
       setNavState(true)
     }
-  }
   });
 
   function changeTheme() {
