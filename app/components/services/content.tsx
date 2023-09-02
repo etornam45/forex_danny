@@ -18,7 +18,7 @@ export default function ServicesContent () {
         <div className="services-page fluid-container">
             <h1>Our Services</h1>
             <p style={{padding: "1rem 0 3rem"}}>
-                At <b>UNITrading</b>, we are dedicated to empowering traders of all skill levels to succeed in the dynamic world of forex trading. Our comprehensive range of services is designed to cater to your unique trading goals, whether you're a novice looking to learn the ropes or an experienced trader seeking advanced investment opportunities. With a team of skilled professionals and a proven track record, we are your trusted partner on your forex trading journey.
+                At <b>UNI Trading</b>, we are dedicated to empowering traders of all skill levels to succeed in the dynamic world of forex trading. Our comprehensive range of services is designed to cater to your unique trading goals, whether you're a novice looking to learn the ropes or an experienced trader seeking advanced investment opportunities. With a team of skilled professionals and a proven track record, we are your trusted partner on your forex trading journey.
             </p>
             <div className="service">
                 <div className="img">
