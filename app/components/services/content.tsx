@@ -38,7 +38,7 @@ export default function ServicesContent () {
             </div>
             <WideButton text='Start A Live Session on Zoom' url='/services/tutorial' />
 
-            <div className="service">
+            <div className="service" style={{direction: "rtl"}}>
                 <div className="img">
                     <Image src={InvestmentImg} alt="Forex Investment" />
                 </div>

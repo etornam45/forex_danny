@@ -11,11 +11,7 @@ export default function Header() {
   const [theme, setTheme] = useState("light");
   const [navState, setNavState] = useState(false);
 
-  window.onload = () => {
-    if(window.innerWidth > 768){
-      setNavState(true)
-    }
-  }
+  
 
   useEffect(() => {
     if (localStorage.getItem("theme") === "dark") {
@@ -25,6 +21,12 @@ export default function Header() {
       setTheme("light");
       document.body.classList.remove("dark");
     }
+    
+    window.onload = () => {
+    if(window.innerWidth > 768){
+      setNavState(true)
+    }
+  }
   });
 
   function changeTheme() {
