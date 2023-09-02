@@ -53,7 +53,7 @@ export default function ServicesContent () {
                     </ul>
                 </div>
             </div>
-            <WideButton text="Can't risk? Start investing today " url='/services/tutorial' />
+            <WideButton text="Can't risk? Start investing today " url='/services/investment' />
 
             <div className="service">
                 <div className="img">

@@ -104,7 +104,7 @@ body.dark{
   --primary-color: hsl(204, 100%, 36%);
   --background-color: #222235db;
   background: var(--background-color);
-  color: #9e9c9c;
+  color: #e4e4e4;
   --color: rgba(255, 255, 255, 0.692) !important;
   --text-color: #fff !important;
 }
