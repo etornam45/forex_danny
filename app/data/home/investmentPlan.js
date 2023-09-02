@@ -1,26 +1,29 @@
 export const InvestmentData = [
     {
-        title:'FIRST PLAN',
-        minimum:'MINIMUM: $500.00',
-        maximum:'MAXIMUM: $5,000.00',
-        shared:'INTEREST RETURNS: 20% every month',
-        returns:'PROFTI-SHARED: 13% for the investor and 7% for us',
-        withdrawal:'WITHDRAWAL CHARGES: No charges',
+        title: 'Builder package',
+        minimum: 'Minimum investment: $150',
+        maximum: 'Maximum investment: unlimited',
+        shared: 'Interest returns: 2% every 7days',
+        returns: 'Profit-shared: 30% for the company and 70% for the investor',
+        withdrawal: 'Withdrawal charges: No charges',
+        duration: 'Duration: 7days'
     },
     {
-        title:'SECOND PLAN',
-        minimum:'MINIMUM: $1,000.00',
-        maximum:'MAXIMUM: $10,000.00',
-        shared:'INTEREST RETURNS: 30% every month',
-        returns:'PROFIT-SHARED: 20% for the investor and 10% for the us',
-        withdrawal:'WITHDRAWAL CHARGES: No charges',
+        title: 'Classic package',
+        minimum: 'Minimum investment: $350',
+        maximum: 'Maximum investment: unlimited',
+        shared: 'Interest returns: 2.15% every 21days',
+        returns: 'Profit-shared: 30% for the company and 70% for the investor',
+        withdrawal: 'Withdrawal charges: No charges',
+        duration: 'Duration: 21days'
     },
     {
-        title:'THIRD PLAN',
-        minimum:'MINIMUM: $10,000.00',
-        maximum:'MAXIMUM: above $10,000.00',
-        shared:'INTERST RETURNS: 40% every month',
-        returns:'PROFIT-SHARED: 25% for the investor and 15% for us',
-        withdrawal:'WITHDRAWAL CHARGES: No charges',
-    },
-]
+        title: 'Gold package',
+        minimum: 'Minimum investment: $500',
+        maximum: 'Maximum investment: unlimited',
+        shared: 'Interest returns: 2.2% every 31days',
+        returns: 'Profit-shared: 30% for the company and 70% for the investor',
+        withdrawal: 'Withdrawal charges: No charges',
+        duration: 'Duration: 48days'
+    }
+];
