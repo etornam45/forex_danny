@@ -13,9 +13,9 @@ export default function HeroSection() {
             Mastering the art of Achieving financial stability with forex trading
             </h1>
             <p>Finding balance amidst market votality:The art of breaking even in forex trading</p>
-            <button>
+            <a href="/services">
               Get Started
-            </button>
+            </a>
           {/* <div className="left">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim asperiores necessitatibus consequuntur quis excepturi ut dolore, a, distinctio nulla eius sit alias nisi maiores itaque delectus laborum nesciunt sed accusamus.</p>
           </div> */}

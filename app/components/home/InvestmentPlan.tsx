@@ -1,49 +1,51 @@
-import React from 'react'
+import React from "react";
 // import './investmentPlans.scss'
-import './investmentPlan.scss'
-import { InvestmentData } from '../../data/home/investmentPlan'
+import "./investmentPlan.scss";
+import { InvestmentData } from "../../data/home/investmentPlan";
+import PlanCard from "../PlanCard";
 
 const InvestmentPlans = () => {
   return (
-    <div className='investment'>
-        <div className='investment_container'>
-            <div className='investment_header'>
-              <h2 className='wine_color' style={{fontSize:'3rem', fontWeight:'bold'}}>Our Investment Plans</h2>
-              <p className='grey_color' style={{fontSize:'1.1rem', marginTop:'1rem'}}>We utilize multi-asset management to make unified profit for our investors</p>
-            </div>
-
-            <div className='investmentPlans fluid-container'>
-              {/* <div> */}
-                {InvestmentData.map(investment =>{
-                  return(
-               
-                    <div className='investmentPlan'>
-                      <p style={{}}>{investment.title}</p> 
-                        <div className='investment_text' style={{fontWeight:'bold'}}>
-                         
-                          <span className='grey_color' >{investment.minimum}</span>
-                          {/* <hr className='grey_color'/> */}
-                          <span className='grey_color'>{investment.maximum}</span>
-                          <span className='grey_color'>{investment.shared}</span>
-                          <span className='grey_color'>{investment.returns}</span>
-                          <span className='grey_color'>{investment.withdrawal}</span>
-                        </div>
-                    </div>
-                 )
-                
-              })}
-            </div>
-
-           
-
-
+    <div className="investment">
+      <div className="investment_container">
+        <div className="investment_header">
+          <h2
+            className="wine_color"
+            style={{ fontSize: "3rem", fontWeight: "bold" }}
+          >
+            Our Investment Plans
+          </h2>
+          <p
+            className="grey_color"
+            style={{ fontSize: "1.1rem", marginTop: "1rem" }}
+          >
+            We utilize multi-asset management to make unified profit for our
+            investors
+          </p>
         </div>
 
+        <div className="investmentPlans fluid-container">
+          {/* <div> */}
+          {InvestmentData.map((investment) => {
+            return (
+              <PlanCard
+                title={investment.title}
+                minimum={investment.minimum}
+                maximum={investment.maximum}
+                shared={investment.shared}
+                returns={investment.returns}
+                withdrawal={investment.withdrawal}
+                duration={investment.duration}
+              />
+            );
+          })}
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default InvestmentPlans
+export default InvestmentPlans;
 
 // <div className="plans">
 // <div>
