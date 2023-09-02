@@ -3,7 +3,7 @@ export const InvestmentData = [
         title: 'Builder package',
         minimum: 'Minimum investment: $150',
         maximum: 'Maximum investment: unlimited',
-        shared: 'Interest returns: 2% every 7days',
+        shared: 'Interest returns: 2% everyday',
         returns: 'Profit-shared: 30% for the company and 70% for the investor',
         withdrawal: 'Withdrawal charges: No charges',
         duration: 'Duration: 7days'
@@ -12,7 +12,7 @@ export const InvestmentData = [
         title: 'Classic package',
         minimum: 'Minimum investment: $350',
         maximum: 'Maximum investment: unlimited',
-        shared: 'Interest returns: 2.15% every 21days',
+        shared: 'Interest returns: 2.15% everyday',
         returns: 'Profit-shared: 30% for the company and 70% for the investor',
         withdrawal: 'Withdrawal charges: No charges',
         duration: 'Duration: 21days'
@@ -21,7 +21,7 @@ export const InvestmentData = [
         title: 'Gold package',
         minimum: 'Minimum investment: $500',
         maximum: 'Maximum investment: unlimited',
-        shared: 'Interest returns: 2.2% every 31days',
+        shared: 'Interest returns: 2.2% everyday',
         returns: 'Profit-shared: 30% for the company and 70% for the investor',
         withdrawal: 'Withdrawal charges: No charges',
         duration: 'Duration: 48days'
