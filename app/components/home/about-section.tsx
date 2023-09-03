@@ -20,7 +20,7 @@ const AboutSection = () => {
               <span className='wine_color msg'>We have been providing quality <br/>services for more than 3 years </span>
               <div>
                 <Image alt="CEO" src={ceo} width={50} height={50}/>
-                <span className='wine_color' style={{fontWeight:'bold'}}>Dalli Fx,<span className='grey_color'>CEO</span></span>
+                <span className='wine_color' style={{fontWeight:'bold'}}>Deedallah Fx<span className='grey_color'>, CEO</span></span>
               </div>
              
             
