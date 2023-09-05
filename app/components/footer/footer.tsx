@@ -4,7 +4,7 @@ import "./footer.scss"
 export default function Footer(){
     return (<>
         <footer>
-            <div className="fluid-container" style={{marginTop: 100}}>
+            <div className="fluid-container" style={{marginTop: 100, color: 'black'}}>
             <div className={styles["auto-container"]}>
                 <div className={styles.row}>
                     <div className={styles["big-column"]}>    
