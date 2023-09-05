@@ -65,12 +65,12 @@ export default function Header() {
                 <li>
                   <a href={"/contact"}>Contact</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href={"/login"}>Login</a>
                 </li>
                 <li>
                   <a href={"/register"}>Register</a>
-                </li>
+                </li> */}
             </ul>
             )}
           <div className={styles.control}>
