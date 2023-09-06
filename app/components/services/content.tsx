@@ -71,7 +71,7 @@ export default function ServicesContent () {
                     </ul>
                 </div>
             </div>
-            <WideButton text='Trust us with your account, gain more profit' url='/services/tutorial' />
+            <WideButton text='Trust us with your account, gain more profit' url='/services/management' />
 
             <div className="why-choose-us">
                 <h2 style={{textAlign: "center"}}>Why Choose Us?</h2>
