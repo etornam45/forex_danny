@@ -1,5 +1,5 @@
-import React from 'react';
-import './PlanCard.scss'; // Create a CSS file for styling
+import React from "react";
+import "./PlanCard.scss"; // Create a CSS file for styling
 
 interface PlanCardProps {
   title: string;
@@ -21,15 +21,17 @@ const PlanCard: React.FC<PlanCardProps> = ({
   duration,
 }) => {
   return (
-    <div className="plan-card">
-      <h2>{title}</h2>
-      <p>{minimum}</p>
-      <p>{maximum}</p>
-      <p>{shared}</p>
-      <p>{returns}</p>
-      <p>{withdrawal}</p>
-      <p>{duration}</p>
-    </div>
+    <>
+      <div className="plan-card">
+        <h2>{title}</h2>
+        <p>{minimum}</p>
+        <p>{maximum}</p>
+        <p>{shared}</p>
+        <p>{returns}</p>
+        <p>{withdrawal}</p>
+        <p>{duration}</p>
+      </div>
+    </>
   );
 };
 
