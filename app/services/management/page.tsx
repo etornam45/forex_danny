@@ -1,7 +1,7 @@
-import UnderConstruction from "@/components/UnderConstruction";
+import InvestmentPlan from "./managementPlan";
 
 export default function ManagementPage () {
     return(<>
-        <UnderConstruction />
+        <InvestmentPlan />
     </>)
 }
