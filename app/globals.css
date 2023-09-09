@@ -105,7 +105,7 @@ body.dark{
   --background-color: #222235db;
   background: var(--background-color);
   color: #e4e4e4;
-  --color: rgba(255, 255, 255, 0.692) !important;
+  --color: rgba(202, 202, 202, 0.459) !important;
   --text-color: #fff !important;
 }
 
