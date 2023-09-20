@@ -5,6 +5,17 @@
   background: var(--background-color);
   backdrop-filter: blur(48px) saturate(10.7);
   z-index: 3;
+  height: 66px;
+  display: flex;
+  align-items: center;
+
+  img{
+    border-radius: 50px;
+  }
+
+  a{
+    cursor: pointer;
+  }
 
   .fluid-container {
     display: flex;
@@ -12,7 +23,7 @@
     align-items: center;
     width: var(--max-width);
     margin: 0 auto;
-    padding: 20px;
+    padding: 8px;
 
 
     
@@ -21,17 +32,7 @@
     }
   }
 
-  .logo {
-    span {
-      background: var(--primary-color);
-      padding: 5px;
-      // font-size: 1.2rem;
-      font-weight: 900;
-    }
-
-    font-weight: bolder;
-    font-size: 1.2rem;
-  }
+  
 
   .navbar {
     display: flex;
