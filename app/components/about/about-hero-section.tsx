@@ -6,7 +6,7 @@ const AboutHeroSection = () => (<>
     <div className='fluid-container'>
         <div className="about-hero" >
             <p>
-              Welcome to [Your Forex Trading Website], your trusted partner in the exciting world of forex trading. We are dedicated to empowering traders of all levels with the knowledge, tools, and support they need to succeed in the dynamic forex market.
+              Welcome to UNI Trading, your trusted partner in the exciting world of forex trading. We are dedicated to empowering traders of all levels with the knowledge, tools, and support they need to succeed in the dynamic forex market.
             </p>
 
             <p>
