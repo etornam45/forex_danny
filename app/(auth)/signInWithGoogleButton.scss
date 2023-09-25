@@ -1,0 +1,25 @@
+.sign_in_with_google{
+    background: lightcoral;
+    width: 350px;
+    margin-top: 20px;
+    box-shadow:  0 0 5px 0 rgba(0, 0, 0, 0.219);
+    border-radius: 8px;
+    overflow: hidden;
+    button{
+        width: 100%;
+        border: none;
+        padding: 10px 30px ;
+        background: white;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 30px;
+
+        img{
+            width: 30px;
+            height: 30px;
+        }
+    }
+}
