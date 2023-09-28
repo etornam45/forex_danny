@@ -1,0 +1,66 @@
+.user_invest{
+    padding: 10px 20px;
+    border: 0;
+    background: var(--primary-color);
+    color: black;
+
+
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    translate: -50% 0;
+
+    border-radius: 30px;
+
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+dialog#myDailog{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: white;
+    color: black;
+    // width: 400px;
+    // height: 200px;
+
+    padding: 20px;
+    border: none;
+
+    @media screen and (max-width: 509px) {
+        width: 100%;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+
+        div{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 30px;
+
+            button{
+                padding: 10px;
+                border-radius: 0;
+                border: none;
+                cursor: pointer;
+                background: #ccc;
+                color: black;
+            }
+        }
+    }
+    
+    input{
+        padding: 10px 20px;
+        border: 1px solid #ccc;
+        border-radius: 0px;
+        background: white;
+        color: black;
+    }
+}
