@@ -41,14 +41,14 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background: #fff;
-        color: #0b0b16;
-    }
+  body {
+    background: #fff;
+    color: #0b0b16;
+  }
 
-    button{
-      background: white;
-    }
+  button {
+    background: white;
+  }
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
@@ -97,10 +97,10 @@ body {
   overflow-x: hidden;
   transition: 300ms;
   --color: rgba(0, 0, 0, 0.692) !important;
+  font-family: sans-serif;
 }
 
-
-body.dark{
+body.dark {
   --primary-color: hsl(204, 100%, 36%);
   --background-color: #222235db;
   background: var(--background-color);
@@ -109,14 +109,13 @@ body.dark{
   --text-color: #fff !important;
 }
 
-
 body.dark b,
 body.dark h1,
 body.dark h2,
 body.dark h3,
 body.dark h4,
 body.dark h5,
-body.dark h6{
+body.dark h6 {
   color: white;
 }
 
@@ -135,13 +134,12 @@ a {
   text-decoration: none;
 }
 
-
-img{
+img {
   width: 100%;
   height: auto;
 }
 
-.fluid-container{
+.fluid-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,15 +149,14 @@ img{
   height: 100%;
 }
 
-
-@media screen and (max-width: 1100px){
-  .fluid-container{
+@media screen and (max-width: 1100px) {
+  .fluid-container {
     width: 100%;
-  }  
+  }
 }
 
 @media screen and (max-width: 800px) {
-  .fluid-container{
+  .fluid-container {
     flex-direction: column;
   }
 }
@@ -170,8 +167,18 @@ img{
   }
 }
 
-
-footer{
+footer {
   background: color-mix(in xyz, var(--primary-color) 80%, white 20%);
   color: black;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.logo span {
+  background: var(--primary-color);
+  padding: 5px;
+  font-weight: 900;
 }

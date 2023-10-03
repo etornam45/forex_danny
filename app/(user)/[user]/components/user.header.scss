@@ -1,0 +1,21 @@
+.user_header{
+    // everything else is just a placeholder
+    display: flex;
+    // padding: 8px;
+    height: 66px;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+
+    .fluid-container{
+        padding: 8px 10px;
+        width: 100%;
+
+        @media screen and (max-width: 800px) {
+            flex-direction: row;
+        }
+    }
+
+    img{
+        border-radius: 50px;
+    }
+}

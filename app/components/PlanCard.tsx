@@ -1,4 +1,4 @@
-import React from "react";
+
 import "./PlanCard.scss"; // Create a CSS file for styling
 
 interface PlanCardProps {
